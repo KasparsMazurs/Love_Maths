@@ -177,7 +177,11 @@ body {
 
 /* --------- Media queries */
 
-@media (max-width: 414px) {
+@media (max-width: 944px) {
+    .game-area {
+        height: 70vh;
+    }
+
     .controls-area {
         width: 100%;
     }
@@ -214,7 +218,7 @@ body {
         margin: 0 auto;
     }
     .btn--gray {
-        margin-top: 0;
+        margin-top: -20px;
     }
 
     .score-area {
@@ -232,10 +236,7 @@ body {
     }
 }
 
-@media (max-width: 320px) {
-    .game-area {
-        height: 70vh;
-    }
+@media (max-width: 450px) {
 
     .controls-area {
         width: 75%;
@@ -247,6 +248,9 @@ body {
     }
     .question-area {
         padding: 10px 0;
+    }
+    .btn--gray {
+        margin-top: 0;
     }
 
 }
